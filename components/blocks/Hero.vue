@@ -6,12 +6,8 @@
   <div class="hero" v-bind:style="'background-image: url(' + backgroundImage + ')'">
     <div class="hero-body">
       <div class="container">
-        <h1 class="title">
-          {{ title }}
-        </h1>
-        <p class="subtitle">
-          {{ subtitle }}
-        </p>
+        <Typography variant="title" class="hero-title">{{ title }}</Typography>
+        <Typography variant="subtitle" class="hero-subtitle">{{ subtitle }}</Typography>
         <LinkButton
           v-if="buttonText"
           :text="buttonText"
@@ -23,10 +19,11 @@
 </template>
 
 <script>
+import Typography from "../elements/Typography";
 import LinkButton from "../elements/LinkButton";
 export default {
   name: 'Hero',
-  components: {LinkButton},
+  components: {LinkButton, Typography},
   props: {
     backgroundImage: {
       type: String,
@@ -79,13 +76,6 @@ export default {
     margin: 0 auto;
   }
 
-  .title {
-    font-size: min(10vw, 4rem);
-  }
-
-  .subtitle {
-    font-size: min(5vw, 1.3rem);
-  }
 
   .button {
     margin-top: 3rem;

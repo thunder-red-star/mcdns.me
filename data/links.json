@@ -1,0 +1,57 @@
+[
+  {
+    "title": "My home",
+    "links": [
+      {
+        "text": "Home",
+        "link": "https://www.example.com"
+      },
+      {
+        "text": "About",
+        "link": "https://www.example.com/about"
+      },
+      {
+        "text": "Contact",
+        "link": "https://www.example.com/contact"
+      }
+    ]
+  },
+  {
+    "title": "My work",
+    "links": [
+      {
+        "text": "Google home",
+        "link": "https://www.google.com"
+      },
+      {
+        "text": "Google about",
+        "link": "https://www.google.com/about"
+      },
+      {
+        "text": "Google blog",
+        "link": "https://www.google.com/blog"
+      },
+      {
+        "text": "Google contact",
+        "link": "https://www.google.com/contact"
+      }
+    ]
+  },
+  {
+    "title": "My blog",
+    "links": [
+      {
+        "text": "Blog home",
+        "link": "https://www.blog.com"
+      },
+      {
+        "text": "Blog about",
+        "link": "https://www.blog.com/about"
+      },
+      {
+        "text": "Blog contact",
+        "link": "https://www.blog.com/contact"
+      }
+    ]
+  }
+]

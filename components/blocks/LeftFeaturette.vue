@@ -6,19 +6,24 @@
   <!-- You can use Tailwind's flexbox utilities to change the order of the image and text. -->
   <div class="featurette flex flex-wrap place-items-center	">
     <div class="left-featurette-content w-full md:w-1/2">
-      <h2 class="featurette-title">{{ title }}</h2>
-      <h3 class="featurette-subtitle">{{ subtitle }}</h3>
-      <p class="featurette-description">{{ description }}</p>
+      <Typography variant="title" class="featurette-title">{{ title }}</Typography>
+      <Typography variant="subtitle" class="featurette-subtitle">{{ subtitle }}</Typography>
+      <Typography variant="body" class="featurette-description">{{ description }}</Typography>
     </div>
     <div class="featurette-image w-full md:w-1/2">
-      <img :src="image" :alt="imageAlt" />
+      <img :src="image" :alt="imageAlt" class="featurette-image-inner"/>
     </div>
   </div>
 </template>
 
 <script>
+import Typography from "../elements/Typography";
+
 export default {
   name: 'LeftFeaturette',
+  components: {
+    Typography,
+  },
   props: {
     image: {
       type: String,
@@ -87,6 +92,12 @@ export default {
 
 .featurette-image {
   padding: 0 40px;
+}
+
+.featurette-image-inner {
+  width: 65%;
+  min-width: 300px;
+  margin: 0 auto;
 }
 
 </style>
