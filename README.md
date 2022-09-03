@@ -9,15 +9,15 @@ Open sourced the website, self-service frontend, and admin panel while this comp
 ## Pricing
 | Plan | Free | Professional | Enterprise |
 | ---- |------|--------------| ----------- |
-| Price | $0   | $3           | Contact us |
+| Price | $0   | $3/month     | Contact us |
 | Number of subdomains | 1    | 10           | Unlimited |
 | DNS records | 3    | 10           | Unlimited |
-| DDOS protection | ❌    | ✅          | ✅       |
-| Non-branded root domain | ❌    | ✅          | ✅       |
-| Custom domain | ❌    | ❌          | ✅       |
-| SSL | ❌    | ❌          | ✅       |
-| Dedicated Support | ❌    | ✅          | ✅       |
-| Subdomain priority | ❌    | ❌          | ✅       |
+| DDOS protection | ❌    | ✅            | ✅       |
+| Non-branded root domain | ❌    | ✅            | ✅       |
+| Custom domain | ❌    | ❌            | ✅       |
+| SSL | ❌    | ❌            | ✅       |
+| Dedicated Support | ❌    | ✅            | ✅       |
+| Subdomain priority | ❌    | ❌            | ✅       |
 
 ## Domains
 * dns.thunder-mc.xyz (free)
